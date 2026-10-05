@@ -1,4 +1,3 @@
-// tag::injection[]
 import java.time.Clock;
 import java.time.Instant;
 
@@ -15,4 +14,3 @@ public class InjectClockExample {
         return clock.instant();
     }
 }
-// end::injection[]

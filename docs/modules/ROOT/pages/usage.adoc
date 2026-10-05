@@ -8,7 +8,7 @@ Inject `java.time.Clock` anywhere CDI is available:
 
 [source,java]
 ----
-include::{examples-dir}/InjectClockExample.java[tags=injection]
+include::{examples-dir}/InjectClockExample.java[]
 ----
 
 By default (`quarkus.clock.type=system`), the bean is `Clock.systemUTC()`.
@@ -31,7 +31,7 @@ The CDI bean type remains `java.time.Clock`; unwrap it to call mutation methods:
 
 [source,java]
 ----
-include::{examples-dir}/AdjustableClockExample.java[tags=adjustable]
+include::{examples-dir}/AdjustableClockExample.java[]
 ----
 
 `AdjustableClock` methods:

@@ -1,4 +1,3 @@
-// tag::adjustable[]
 import java.time.Clock;
 import java.time.Duration;
 import java.time.Instant;
@@ -29,4 +28,3 @@ public class AdjustableClockExample {
         return clock.instant();
     }
 }
-// end::adjustable[]
